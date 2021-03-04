@@ -25,18 +25,33 @@ public enum Size
  this.code=code;
  }
  @Override
+ /**
+  * retorna a descrição
+  */
  public String toString() {
  return this.description;
  }
+  /**
+  * retorna a descrição
+  */
  public String getDescription() {
  return description;
  }
+  /**
+  * retorna o valor minimo
+  */
  public int getMinValue() {
  return minValue;
  }
+  /**
+  * retorna o valor máximo
+  */
  public int getMaxValue() {
  return maxValue;
  }
+  /**
+  * retorna o código
+  */
  public char getCode() {
  return code;
  }
